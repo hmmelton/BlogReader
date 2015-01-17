@@ -19,6 +19,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".BlogWebActivity"
+            android:label="@string/title_activity_blog_web"
+            android:parentActivityName=".MainListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="hmmelton.com.blogreader.MainListActivity" />
+        </activity>
     </application>
 
 </manifest>
